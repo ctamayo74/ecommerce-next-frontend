@@ -29,10 +29,10 @@ npx lighthouse http://localhost:3000/products --preset=desktop --output=html --o
 
 | Ruta | Perf | A11y | Best Pr. | SEO | LCP | CLS | TBT |
 |---|---|---|---|---|---|---|---|
-| /products | | | | | | | |
-| /products/[id] | | | | | | | |
-| /login | | | | | | | |
-| /orders | | | | | | | |
+| /products |48| 95| 96| 92| 7.3s| 0| 2,250ms|
+| /products/[id] |70 | 96| 96| 100| 1.3s| 0|2,490ms |
+| /login |76 | 100| 100| 100| 1.3s|0 |1,190ms |
+| /orders |57 | 96| 100| 100| 6.7s|0 | 880ms|
 
 Objetivos orientativos: LCP < 2.5 s, CLS < 0.1, TBT < 200 ms.
 
